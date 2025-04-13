@@ -1,0 +1,11 @@
+$nomention
+$title[**DAILY**]
+$color[009bff]
+$author[$username]
+$authorIcon[$authorAvatar]
+$footer[@cobalt Community's]
+$footerIcon[$serverIcon]
+$thumbnail[$serverIcon]
+$description[você resgatou seu daily!]
+$setUserVar[dinheiro;$sum[$getUserVar[dinheiro];$random[100;10000]]]
+$cooldown[86400;espere até o próximo dia para resgatar o daily]
