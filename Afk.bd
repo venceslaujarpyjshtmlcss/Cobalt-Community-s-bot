@@ -1,0 +1,29 @@
+$reply
+$nomention
+$if[$getUserVar[afk;$authorID]!=×]
+$if[$message!=]
+$description[Você atualizou sua mensagem de afk de `$getUserVar[afk;$authorID]` para `$message`, para desativar o afk digite: `?afk`.]
+$color[009bff]
+$author[$username]
+$authorIcon[$authorAvatar]
+$footer[@cobalt Community's]
+$foooterIcon[$serverIcon]
+$setUserVar[afk;$message;$authorIDD]
+$else
+$description[Você saiu do modo afk, para entrar digite: `?afk <motivo>`.]
+$color[009bff]
+$author[$username]
+$authorIcon[$authorAvatar]
+$footer[@cobalt Community's]
+$footerIcon[$serverIcon]
+$setUserVar[afk;×;$authorID]
+$endif
+$else
+$description[Você entrou no modo afk pelo motivo `$replaceText[$replaceText[${$message}$;${}$;Não insirido;1];${$message}$;$message;1]`, para sair do modo afk digite: `?afk`.]
+$color[009bff]
+$author[$username]
+$authorIcon[$authorAvatar]]
+$footer[@coballt Community's]
+$footerIcon[$serverIcon]
+$setUserVar[afk;$replaceText[$replaceText[${$message}$;${}$;Não insirido;1];${$message}$;$message;1];$authorID]
+$endif  
