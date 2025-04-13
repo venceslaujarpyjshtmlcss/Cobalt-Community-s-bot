@@ -1,0 +1,9 @@
+$nomention
+$title[**RANK**]
+$color[009bff]
+$author[$username]
+$authorIcon[$authorAvatar]
+$footer[@cobalt Community's]
+$footerIcon[$serverIcon]
+$thumbnail[$serverIcon]
+$userLeaderboard[dinheiro;asc]
