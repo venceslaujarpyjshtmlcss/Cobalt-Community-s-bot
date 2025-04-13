@@ -1,0 +1,21 @@
+$nomention
+$title[**PERFIL**]
+$color[009bff]
+$author[$username]
+$authorIcon[$authorAvatar]
+$footer[@cobalt Community's]
+$footerIcon[$serverIcon]
+$thumbnail[$authorAvatar]
+$description[informações sobre o usuário:
+
+nome: $username
+id: `$authorID`
+grupo do hypesquad: $hypesquad[$authorID]$customEmoji[$hypesquad[$authorID]
+
+informações do servidor:
+
+coins: $getUserVar[dinheiro]
+banco: $getUserVar[banco]
+posição no rank: $getLeaderboardPosition[user;dinheiro;desc]
+boosters: $isBooster[$authorID]
+]
