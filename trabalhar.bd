@@ -1,0 +1,12 @@
+$title[**TRABALHO**]
+$color[009bff]
+$author[$username]
+$authorIcon[$authorAvatar]
+$footer[@cobalt Community's]
+$footerIcon[$serverIcon]
+$thumbnail[$serverIcon]
+$description[Você trabalhou e ganhou uma quantia aleatória de dinheiro!]
+$setUserVar[imposto;$sum[$getUserVar[imposto];1]]
+$setUserVar[dinheiro;$sum[$getUserVar[dinheiro];$random[100;1000]]]
+$nomention
+$cooldown[240s;Você tem que esperar 4 minutos para trabalhar de novo!]
