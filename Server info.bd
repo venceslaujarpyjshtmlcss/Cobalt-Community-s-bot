@@ -1,0 +1,24 @@
+$nomention
+$title[**SERVER INFO**]
+$color[009bff]
+$author[$username]
+$authorIcon[$authorAvatar]
+$footer[@cobalt Community's]
+$footerIcon[$serverIcon]
+$thumbnail[$serverIcon]
+$serverInfo[nome do servidor: {name}
+
+Região: {region}
+
+Dono: {owner}
+
+ID do servidor: {ID}
+
+nível de verificação: {verificationLvl}
+
+servidor grande?: {large}
+
+quantidade de membros: $membersCount
+
+boosters: $boostCount
+]
