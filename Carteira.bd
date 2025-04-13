@@ -1,0 +1,14 @@
+$nomention
+$title[**CARTEIRA**]
+$color[009bff]
+$author[$username]
+$authorIcon[$authorAvatar]
+$thumbnail[$serverIcon]
+$footer[@cobalt Community's]
+$footerIcon[$serverIcon]
+$description[$username Você tem 
+
+dinheiro: $getUserVar[dinheiro]
+
+banco: $getUserVar[banco]
+]
